@@ -1,0 +1,31 @@
+{
+  "name": "krakenproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.8.12",
+    "generator-kraken": "^2.2.3",
+    "grunt-cli": "^1.3.2",
+    "kraken": "^0.4.0",
+    "yo": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx eslint ./src/*.js --fix && node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waylogger/kraken_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waylogger/kraken_project/issues"
+  },
+  "homepage": "https://github.com/waylogger/kraken_project#readme"
+}
